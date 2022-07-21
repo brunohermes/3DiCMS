@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Titillium+Web:wght@200;400;600&display=swap');
+*:focus {
+    box-shadow: none;
+    outline: none;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #1d1b22;
+    margin: 0;
+    padding: 0;
+}
+.login-mobile{
+    margin-top: 20vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+.container-login-m{
+    border-radius: 10px;
+    
+    /* border: 1px solid #47474e; */
+    /* background-color: #26262e; */
+    padding-bottom: 10vh;
+    justify-content: center;
+    align-items: center;  
+}
+.form-loginm{
+    justify-content: center;
+    align-items: center;
+}
+.input-email-m{
+    color: #F4FFFD;
+    font-family: 'Roboto', sans-serif;
+    border: 0.5px solid #3b3a41;
+    background-color: #1d1c23;
+    margin-top: 20vh;
+    width: 60vw;
+    height: 6vh;
+    caret-color: transparent;
+    border-radius: 10px;
+}
+.input-email-m::placeholder{
+    background: url("../../img/email.png") no-repeat left;
+    background-size: 13px;
+    background-position-x: 15px;
+    color: #F4FFFD;
+    padding-left: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 8pt;
+    font-weight: 600;
+
+}
+.input-pwd-m{
+    color: #F4FFFD;
+
+    margin-top: 2vh;
+    width: 60vw;
+    height: 6vh;
+    border: 0.5px solid #3b3a41;
+    background-color: #1d1c23;
+    caret-color: transparent;
+    border-radius: 10px;
+}
+.input-pwd-m::placeholder{
+    background: url("../../img/pwd.png") no-repeat left;
+    background-size: 13px;
+    background-position-x: 15px;
+    color: #F4FFFD;
+    padding-left: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 8pt;
+    font-weight: 600;
+}
+.login-btn-m{
+    border: 0.2px solid #F4FFFD;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #F4FFFD;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 3vh;
+    width: 35vw;
+    height: 6.5vh; 
+}
+
+.login-btn-m:hover{
+    border: 0.2px solid #F4FFFD;
+    border-radius: 10px;
+    background-color: #F4FFFD;
+    color: #1d1b22;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 3vh;
+    width: 35vw;
+    height: 6.5vh; 
+}

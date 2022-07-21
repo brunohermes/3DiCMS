@@ -1,0 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+body{
+    margin:0;
+    background-color: #36415d;
+}
+.page-title{
+    font-family: 'Poppins', sans-serif;
+    z-index:5;
+    margin-left: 7%;
+    position: fixed;
+    color: #fff;
+}
+.page-content{
+    position: fixed;
+}
+.page-handler{
+    z-index: 2;
+    background-image: linear-gradient(to bottom right, #2d3854, #181e2e);
+    position: relative;
+    width: 90vw;
+    height: 85vh;
+    margin-top: 5%;
+    margin-left: 8%;
+    border: 2px solid #303c56;
+    border-radius: 15px;
+}
+
+.sidebardash{
+    position: fixed;
+    z-index: 5;
+    width: 4vw;
+    height: 100vh;
+    background-color: #2d3852;
+    box-shadow: 0px 0px 0.1px 0.1px #303c56;
+    outline: 0.001px solid #303c56;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+    margin-top: 20vh;
+}
+li{
+    margin-top: 3vh;
+}
+.l1-icon{
+    position: relative;
+    background: url("../img/apps.png") no-repeat;
+    background-size: 35%;
+    background-position-x: center;
+    background-position-y: center;
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: #2d3852;
+}
+.l1-icon:hover{
+    
+    position: relative;
+    background: url("../img/appsh.png") no-repeat;
+    background-size: 35%;
+    background-position-x: center;
+    background-position-y: center;
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: #2179fd; 
+}
+.l2-icon{
+    position: relative;
+    background: url("../img/3d.png") no-repeat;
+    background-size: 35%;
+    background-position-x: center;
+    background-position-y: center;
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: #2d3852;
+}
+.l2-icon:hover{
+    position: relative;
+    background: url("../img/3dh.png") no-repeat;
+    background-size: 35%;
+    background-position-x: center;
+    background-position-y: center;
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: #2179fd;
+}
+.l3-icon{
+    position: relative;
+    background: url("../img/layer.png") no-repeat;
+    background-size: 35%;
+    background-position-x: center;
+    background-position-y: center;
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: #2d3852;
+}
+.l3-icon:hover{
+    position: relative;
+    background: url("../img/layerh.png") no-repeat;
+    background-size: 35%;
+    background-position-x: center;
+    background-position-y: center;
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: #2179fd;
+}
+.l4-icon{
+    position: relative;
+    background: url("../img/folder.png") no-repeat;
+    background-size: 35%;
+    background-position-x: center;
+    background-position-y: center;
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: #2d3852;
+}
+.l4-icon:hover{
+    position: relative;
+    background: url("../img/folderh.png") no-repeat;
+    background-size: 35%;
+    background-position-x: center;
+    background-position-y: center;
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: #2179fd;
+}
+.profile{
+    float: right;
+    position: relative;
+    padding-right: 10vw;
+    padding-top: 1%;
+}
+.profile-pic{
+    float: right;
+    position: relative;
+    background-color: white;
+    background: url("../img/user.png") no-repeat center;
+    width: 60px;
+    height: 60px;
+    margin-right: 2vw;
+    border-radius: 50px;
+}
+.profile-info{
+    font-family: 'Poppins', sans-serif;
+    font-size: 11pt;
+    margin-top: 5%;
+    margin-left: 8vh;
+    position: absolute; 
+    color: #fff;
+    font-weight: 600;
+}
+.arrow-profile{
+    position: relative;
+    margin-left: 15px;
+    float: right;
+    width: 16px;
+    height: 16px;
+    margin-top: 0;
+}
+.exp-inf{
+    text-align: center;
+    z-index: 6;
+    float: right;
+    margin-left: 3%;
+    position: fixed;
+    margin-top: 2.5%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #36415d;
+    border: 1px solid #303c56;
+    border-top: 0px;
+    width: 15vh;
+    padding: 10px;
+    box-shadow: 0px 0px 0.1px 0.1px #303c56;
+    outline: 0.001px solid #303c56;
+}
+.exp-link{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10pt;
+
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+#dash-canvas{
+    z-index: 8;
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 15vh;
+    padding: 5vh;
+}
+
+.pfm{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 15pt;
+    position: relative;
+    margin-left: 100vh;
+    margin-top: 15vh;
+    float:right;
+}
+.dropdown{
+    color: #2179fd;
+    border: 1px solid #2179fd;
+    width: 20vh;
+    height: 3vh;
+    border-radius: 10px;
+}
+.Profile-settings{
+    color: #fff;
+    margin-top: -70px;
+}
+.plabel{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15pt; 
+    font-weight: 200;
+}
+.pplabel{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15pt;
+    margin-top: 5vh;
+    font-weight: 200;
+}
+.profilelb{
+    margin-top: 5vh;
+    font-size: 20pt;
+    display:block;
+}
+.profile-sPic{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.uploadavatarform{
+    margin-top: 5vh;
+}

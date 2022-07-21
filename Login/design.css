@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Titillium+Web:wght@200;400;600&display=swap');
+*:focus {
+    box-shadow: none;
+    outline: none;
+}
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    padding-top: 20vh;
+    width: 10vh;
+  }
+body{
+    background: #f5f6fa;  /* fallback for old browsers */
+      font-family: 'Titillium Web', sans-serif;
+      
+}
+.row{
+    background-color: #ffff;
+    border-radius: 20px;
+}
+img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 30px;
+    
+}
+.loginbtn{
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.loginbtn:hover{
+    background-color: #FFFFFF;
+    border: 1px solid;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: #686de0;
+}
+a:hover{
+    color: #4834d4;
+}
